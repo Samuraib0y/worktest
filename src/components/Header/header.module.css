@@ -1,0 +1,15 @@
+header img{
+    width: 40px;
+    height: 40px;
+}
+.header {
+    grid-area: h;
+}
+
+.loginBlock{
+    float: right;
+}
+header {
+    /*background-image: url("/src/assets/images/bgimage.svg");*/
+    ;
+}

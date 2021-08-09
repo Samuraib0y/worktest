@@ -1,0 +1,24 @@
+header {
+  background-image: url("../src/assets/images/bgimage.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 1920px;
+
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+  "h h"
+  "n c"
+;
+  grid-template-rows: 420px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 12px;
+}
+.app-wrapper-content {
+  grid-area: c;
+  background-color: greenyellow;
+  min-height: 600px;
+}
+
